@@ -53,7 +53,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                pluginexample {
+                playerfinder {
                     source sourceSets.main
                 }
             }
