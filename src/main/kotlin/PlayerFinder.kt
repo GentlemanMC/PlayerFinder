@@ -21,7 +21,7 @@ internal object PlayerFinder: PluginModule(
     name = "PlayerFinder",
     category = Category.MISC,
     description = "Finds players using a brownmen exploit",
-    pluginMain = PluginExample
+    pluginMain = PlayerFinderPlugin
 ) {
     private val packetsPerTick by setting("Packets per tick", 2, 0..5, 1, description = "Amount of packets sent per tick")
 

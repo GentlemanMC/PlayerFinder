@@ -1,14 +1,14 @@
 {
-  "name": "PluginExample",
+  "name": "PlayerFinder",
   "version": "1.0",
   "authors": [
-    "me",
-    "you"
+    "Constructor",
+    "Brownmen"
   ],
-  "description": "does absolutely nothing",
+  "description": "Finds players using a brownmen exploit",
   "url": "",
-  "min_api_version": "2.05.01",
+  "min_api_version": "2.07.01",
   "required_plugins": [],
-  "main_class": "PluginExample",
+  "main_class": "PlayerFinderPlugin",
   "hot_reload": true
 }
