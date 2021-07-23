@@ -24,7 +24,7 @@ internal object PlayerFinder: PluginModule(
     pluginMain = PlayerFinderPlugin
 ) {
     private val packetsPerTick by setting("Packets per tick", 2, 0..5, 1, description = "Amount of packets sent per tick")
-
+//sex
     init {
         safeListener<TickEvent.ClientTickEvent> {
             if (it.phase != TickEvent.Phase.START) return@safeListener
